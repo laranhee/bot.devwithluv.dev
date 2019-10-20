@@ -15,7 +15,12 @@ npm run dev
 api 엔드포인트 및 로직 추가
 
 1. .functions/{api-endpoint-이름}/{api-endpoint-이름}.js 으로 파일생성
+
 1. aws lambda에서 사용하는 형태로 함수 작성
+
+   - [함수 형식](https://docs.aws.amazon.com/ko_kr/lambda/latest/dg/nodejs-prog-model-handler.html)
+   - [lambda 함수 반환 형식](https://docs.aws.amazon.com/ko_kr/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-output-format)
+  
 1. 실제 만들어지는 api-endpoint는 /.netlify/functions/{api-endpoint-이름}
 
 참고 : 슬랙봇 프로토타이핑 코드
