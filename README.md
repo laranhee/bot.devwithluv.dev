@@ -25,8 +25,12 @@ api 엔드포인트 및 로직 추가
 
 참고 : 슬랙봇 프로토타이핑 코드
 
-URL : /.netlify/functions/tip-test
 
 ```
 .functions/tip-test/tip-test.js
 ```
+
+URL : /.netlify/functions/tip-test
+
+   - https://bot.devwithluv.dev/.netlify/functions/tip-test
+
