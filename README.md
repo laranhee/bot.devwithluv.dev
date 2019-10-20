@@ -6,6 +6,8 @@ Netlify Functions는 AWS Lambda를 래핑한 기능
 
 Netlify의 AWS 계정으로 Lambda를 이용
 
+- [Netlify Functions 문서](https://docs.netlify.com/functions/overview/#manage-your-serverless-functions)
+
 ### 로컬 개발
 
 ```
@@ -23,7 +25,7 @@ api 엔드포인트 및 로직 추가
   
 1. 실제 만들어지는 api-endpoint는 /.netlify/functions/{api-endpoint-이름}
 
-참고 : 슬랙봇 프로토타이핑 코드
+### 슬랙봇 프로토타이핑 코드
 
 
 ```
