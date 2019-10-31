@@ -5,6 +5,7 @@ exports.handler = async function(event, context) {
     const posts = await getPosts();
     const post = posts[Math.floor(Math.random() * posts.length)];
     const responseBody = {
+      response_type: 'in_channel',
       text: 'devwithluv',
       attachments: [
         {
