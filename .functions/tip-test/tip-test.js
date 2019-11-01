@@ -6,10 +6,13 @@ exports.handler = async function(event, context) {
     const post = posts[Math.floor(Math.random() * posts.length)];
     const responseBody = {
       response_type: 'in_channel',
-      text: 'devwithluv',
-      attachments: [
+      blocks: [
         {
-          text: post.url
+          type: 'section',
+          text: {
+            type: 'mrkdwn',
+            text: `>*${post.title}* \n>${post.url}`
+          }
         }
       ]
     };
